@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        gap: 15px;
+        width: 80%;
+        margin: 100px auto;
+        background: #1A1C28;
+        padding: 40px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 4px 2px grey;
+      }
+      div {
+        color: #fff;
+        padding: 30px 30px;
+      }
+      .one {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background: red;
+        height: 200px;
+      }
+      .two {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        background: #F3A32C;
+      }
+      .three {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background: #5EAC44;
+        height: 200px;
+      }
+      .four{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        background: #3AAEFC;
+      }
+      .five{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background: #3AAEFC;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+      </div>
+    </main>
+  </body>
+</html>
